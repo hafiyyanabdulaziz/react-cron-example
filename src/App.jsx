@@ -181,6 +181,17 @@ const App = () => {
         setLanguage={onChangeLanguage}
         cronExpression={cronExpression}
       />
+      <div className='border border-black px-5 py-2'>
+        <h2 className='text-lg'>contribute</h2>
+        <p>
+          <a
+            href='https://github.com/hafiyyanabdulaziz/react-cron-example'
+            target='_blank'
+            rel='noopener noreferrer'>
+            https://github.com/hafiyyanabdulaziz/react-cron-example
+          </a>
+        </p>
+      </div>
       <footer>Created by Hafiyyan Abdul Aziz for Indonesia</footer>
     </div>
   );
